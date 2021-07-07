@@ -57,3 +57,127 @@ html, body {
     height: 100%;
 }
 
+@primaryColor: gray;
+
+.flex {
+	display: flex;
+	justify-content: space-evenly; 
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	width: 100%;
+	padding: 3%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+@media(max-width: 500px) {
+	nav {
+	flex-direction: column;
+	align-items: center;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+@media(max-width: 500px) {
+	a {
+		margin: 2% 0;
+	}
+}
+
+.intro {
+	padding: 2%;
+	background-color: whitesmoke;
+}
+
+img {
+	margin-left: 9%;
+}
+
+@media(max-width: 500px) {
+	img {
+		display: none;
+	}
+}
+
+h1 {
+	font-size: 50px;
+	margin-left: 25%;
+}
+
+@media(max-width: 500px) {
+	h1 {
+		margin-left: 20%;
+	}
+}
+
+.intro p {
+	margin-left: 33%;
+}
+
+@media(max-width: 500px) {
+	.intro p {
+		margin-left: 16%;
+	}
+}
+
+.abil {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media (max-width: 500px) {
+	.abil {
+		flex-direction: column;
+	}
+}
+
+ul {
+	list-style-type: disc;
+}
+
+li {
+	font-size: 18px;
+	margin: 20% 0;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.title p {
+	font-size: 15px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid black;
+}
+
+
+.info p {
+	font-size: 15px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2% auto;
+}

@@ -6,7 +6,7 @@
 
   <title>My Resume</title>
 
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="less/index.less">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -14,6 +14,48 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <section class="intro">
+    <img src="https://i.picsum.photos/id/583/1000/400.jpg" alt="lorem-picsum">
+    <h1>Augustine Jo - Web Developer</h1>
+    <p>I am a web developer 
+      with experience in large company websites.</p>
+  </section>
+  <section class="abil">
+    <div class="skills">
+      <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SQL</li>
+          <li>Python</li>
+          <li>Javascript</li>
+          <li>React</li>
+        </ul>
+    </div>
+    <div class="work-his">
+      <h2>Work History</h2>
+        <div class="title">
+          <p>Company:</p>
+          <p>Walt Disney Co.</p>
+        </div>
+        <div class="info">
+          <p>Title:</p>
+          <p> Junior Web Developer</p>
+      </div>
+    </div>
+  </section>
+  <footer class="contact">
+    <h2>Contact</h2>
+    <p>Email: AJ0815@gmail.com</p>
+    <p>Phone Number: (000) 000 - 0000</p>
+  </footer>
 </body>
 </html>
